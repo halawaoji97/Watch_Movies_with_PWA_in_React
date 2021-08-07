@@ -1,0 +1,78 @@
+.aside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #262C40;
+    border-radius: 12px;
+    width: 80%;
+    margin: 80px auto;
+    padding: 40px 32px;
+}
+
+.aside h2{
+    font-size: 28px;
+    color: #F4F2F5;
+    font-weight: 500;
+}
+.aside p{
+    margin: 10px 0;
+    color: #F4F2F5;
+    font-size: 16px;
+}
+span.watch{
+    font-weight: 700;
+    color: #FFDD00;
+}
+span.movies{
+    font-weight: 700;
+    color: #9C28A7;
+}
+.app-store{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    align-items: center;
+}
+.app-store img{
+    border-radius: 12px;
+}
+.image-android{
+    margin-top: 40px;
+}
+.image-android img{
+    display: block;
+    height: 400px;
+}
+
+@media screen and (min-width: 768px){
+    .aside {
+		flex-direction: row;
+		padding: 80px 64px;
+		justify-content: space-around;
+	}
+
+	.aside h2 {
+		font-size: 32px;
+	}
+
+    .image-android img{
+		height: 450px;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.image-android img{
+		height: 500px;
+	}
+
+    .aside h2 {
+		font-size: 36px;
+	}
+
+	.aside p {
+		font-size: 18px;
+	}
+}
+

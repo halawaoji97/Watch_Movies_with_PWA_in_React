@@ -1,0 +1,46 @@
+
+.about{
+    padding: 20px 16px;
+}
+.about p{
+    line-height: 170%;
+    color: #F4F2F5;
+}
+.about .profil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    margin-top: 40px;
+}
+.about .profil .img-profil{
+    overflow: hidden;
+    border-radius: 100%;
+    display: block;
+    border: 1px solid #F4F2F5;
+    width: 90px;
+    height: 90px;
+    padding: 4px;
+}
+.about img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: block;
+}
+.about h5 a{
+    font-size: 20px;
+    color: #F4F2F5;
+    font-weight: 500;
+    text-decoration: none;
+}
+.about h5 .carrer{
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+
+	.about{
+		padding: 40px 64px;
+	}
+}

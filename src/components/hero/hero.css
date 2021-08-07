@@ -1,0 +1,88 @@
+.hero{
+    background: url('../../images/hero-small.jpg') center center/cover no-repeat;
+    height: 400px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+}
+.content-hero{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+}
+.hero h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #F4F2F5;
+}
+
+.hero p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #F4F2F5;
+    line-height: 170%;
+}
+
+.search-app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.search-app input{
+    background-color: #F4F2F5;
+    border-radius: 8px;
+    border: none;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #262C40;
+    width: 100%;
+    padding: 0 16px;
+    outline: none;
+}
+
+.search-app button{
+    background-color: #FFDD00;
+    border-radius: 8px;
+    border: 1px solid #262C40;
+    height: 44px;
+    font-size: 16px;
+    color: #262C40;
+    width: 100px;
+    margin-left: 10px;
+}
+.search-app button:focus, .search-app input:focus{
+    border: 1px solid #F4F2F5;
+}
+
+@media screen and (min-width: 768px){
+    .hero{
+		padding: 0 64px;
+		height: 500px;
+		background: url('../../images/hero-medium.jpg') center center/cover no-repeat;
+	}
+
+	.hero h1 {
+		font-size: 38px;
+	}
+
+	.hero p {
+		font-size: 18px;
+	}
+}
+@media screen and (min-width: 1000px){
+	.hero{
+		height: 600px;
+		background: url('../../images/hero-large.jpg') center center/cover no-repeat;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.hero h1 {
+		font-size: 42px;
+	}
+}
